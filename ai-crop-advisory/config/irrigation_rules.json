@@ -1,0 +1,23 @@
+{
+  "rain_recent_mm": 12,
+  "rain_forecast_mm": 10,
+  "heavy_forecast_mm": 25,
+  "hot_celsius": 32,
+  "low_rain_7d_mm": 8,
+  "crop_stage_priority": {
+    "Rice": ["Transplanting / establishment", "Panicle initiation", "Flowering", "Grain filling"],
+    "Maize": ["Pre-tasseling", "Tasseling", "Silking", "Grain filling"],
+    "Cotton": ["Flowering", "Boll formation"]
+  },
+  "waterlogging_sensitive_stages": {
+    "Cotton": ["Seedling", "Vegetative"]
+  },
+  "guidance_sources": [
+    {
+      "title": "ICAR Kharif Agro-Advisory for Farmers 2025",
+      "url": "https://www.icar.org.in/sites/default/files/Circulars/ICAR-En-Kharif-Agro-Advisories-for-Farmers-2025.pdf",
+      "guidance": "Maize water is especially important at pre-tasseling, silking, and grain filling when rain is absent; rice guidance includes irrigation at panicle initiation and flowering; cotton guidance emphasizes avoiding water stress during flowering and fruiting and avoiding early water stagnation."
+    }
+  ],
+  "threshold_note": "Recent-rain and heat cutoffs are configurable prototype triggers for field-moisture checks. They are not ICAR-prescribed irrigation amounts or schedules."
+}
